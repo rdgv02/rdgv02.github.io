@@ -22,7 +22,8 @@ body {
 	padding: 1em;
 	display: flex;
 	flex-flow: row nowrap;
-	background-color: #438DB7;
+	background-color: #063d40;
+	color: rgb(228, 216, 228);
 }
 
 section {
@@ -58,6 +59,7 @@ legend{
 	margin-bottom: 0.8rem;
 	/* border: 1px solid black; */
 	display: block;
+	color: aqua;
 
 }
 
@@ -106,3 +108,22 @@ input:not([type="radio"]):not([type="checkbox"]), textarea, select{
 	padding: 0.3rem 1rem;
 	border-radius: 10px;
 }
+
+iframe{
+	width: 100%;
+}
+
+@media (max-width:1200px) {
+	.wrapper{
+		flex-direction: column;
+		font-size: 3rem;
+
+	}
+
+	legend{
+		font-size: 3.3rem;
+		font-style:italic;
+	}
+	
+}
+
